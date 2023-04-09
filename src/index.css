@@ -27,6 +27,19 @@ h1{
  margin: 0 auto;
   
 }
+.load{
+  width: 6rem;
+  height: 6rem;
+  border: 10px solid gray;
+  border-radius: 50%;
+  border-top-color: rgb(8, 236, 8);
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}
 
 
 .card-item{
